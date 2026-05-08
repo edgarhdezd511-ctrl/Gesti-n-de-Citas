@@ -23,7 +23,7 @@ def init_db():
                 cedis_origen_siglas TEXT,
                 cedis_destino_num TEXT,
                 cedis_destino_siglas TEXT,
-                pedido TEXT,
+                pedido NUMERIC,
                 sku TEXT,
                 descripcion TEXT,
                 unidades_facturadas INTEGER,
